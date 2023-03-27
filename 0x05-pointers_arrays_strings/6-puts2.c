@@ -1,19 +1,14 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * puts2 - prints characters in a string
- * @str: string
- * Return: nothing
+ * puts2 - Entry Function
+ * @str: char
  */
-
 void puts2(char *str)
 {
-	int i = 0;
-
-	while (str[i] != '\0')
-	{
-		putchar(str[i]);
-		i += 2;
-	}
-	putchar('\n');
+int i;
+for (i = 0 ; str[i] != '\0' ; i += 2)
+{
+putchar(str[i]);
+}
+putchar('\n');
 }
