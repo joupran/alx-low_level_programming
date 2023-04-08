@@ -1,4 +1,4 @@
-#ifdef main_H
+#ifndef main_H
 #define main_H
 
 int _putchar(char c);
