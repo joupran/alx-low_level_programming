@@ -1,2 +1,1 @@
-starting with c program
-i have cloned betty coding style https://github.com/holbertonschool/Betty
+0x10-variadic_functions
